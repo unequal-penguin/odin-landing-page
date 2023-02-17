@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #1f2937;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    gap: 16px;
+}
+
+li {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+}
