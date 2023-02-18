@@ -5,18 +5,24 @@ body {
 }
 
 .header {
+    background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 16px;
     padding-bottom: 16px;
-    background-color: #1f2937;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    color: white;
+    width: 1000px;
 }
 
 .logo {
     font-weight: 900;
     font-size: 24px;
+    color: #f9faf8;
 }
 
 ul {
@@ -32,5 +38,40 @@ li {
 
 a {
     text-decoration: none;
-    color: rgb(230, 230, 230);
+    color: #e5e7eb;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+
+}
+
+.cards {
+    background-color: #ffffff;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.registration {
+    background-color: #ffffff;
+}
+
+.footer {
+    background-color: #1f2937;
 }
